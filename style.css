@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f5f3f388;
+}
+
+.container {
+  text-align: center;
+}
+
+.mail_address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboard {
+  width: 600px;
+  margin: 0 0 40px 0;
+}
+
+.logo {
+  margin: 60px 0 20px 0;
+}
+
+.title h1 {
+  margin: 0 0 20px 0;
+}
+
+.title h1 span {
+  color: #969696;
+  font-weight: normal;
+}
+
+.title p {
+  margin: 0 0 40px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mail_address input {
+  padding: 15px 160px 15px 20px;
+  border-radius: 30px;
+  border: 1px solid #c2d3ff;
+}
+
+.mail_address #button {
+  background-color: #4f7df3;
+  color: #fff;
+  font-size: 12px;
+  padding: 15px 50px 0px 50px;
+  border-radius: 40px;
+  font-weight: 700;
+  margin: 0 0 0 20px;
+}
+
+.mail_address #button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#error {
+  color: #ff5263;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  margin: 5px 0 45px -300px;
+  visibility: hidden;
+}
+
+.fab {
+  color: #4f7df3;
+  background-color: #ffffff6e;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 7px;
+  padding: 10px;
+  border: 1px solid #eedede;
+}
+
+.fab:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4f7df3;
+}
+
+.copyright {
+  color: #969696;
+  font-size: 15px;
+  margin: 20px 0 50px 0;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 14px;
+  }
+  .logo {
+    margin: 100px 0 50px 10px;
+  }
+  .title {
+    margin: 0 0 50px 0;
+  }
+  .title p {
+    margin-top: 30px;
+    font-size: 17px;
+  }
+  .mail_address {
+    display: block;
+    margin: 0 0 0px 10px;
+  }
+  .mail_address input {
+    padding: 20px 0px 20px 45px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align-last: left;
+    width: 370px;
+  }
+  .mail_address #button {
+    padding: 25px 20px;
+    width: 370px;
+    margin: 0 0 0 5px;
+  }
+  #error {
+    font-size: 15px;
+    font-weight: normal;
+    margin: -109px 0 200px 40px;
+  }
+  .dashboard {
+    width: 400px;
+    margin: 0 0 100px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
